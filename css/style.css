@@ -1,0 +1,62 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.container {
+	width: 900px;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+nav {
+	height: 100px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #353638;
+	font-weight: bold;
+	font-family: 'Lobster', 'Dancing Script';
+	font-size: 1.15em;
+	box-shadow: 0px 0px 10px #514745;
+	margin-bottom: 10px;
+	margin-top: 28%;
+}
+
+li {
+	list-style-type: none;
+	display: inline;
+	margin: 0px 10px;
+}
+ul {
+	padding-top: 60px;
+	padding-left: 65%;
+}
+#home {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/cb/Pomeranian_orange-sable_Coco.jpg");
+	background-repeat: no-repeat;
+	background-attachment: none;
+	background-size: 100%;
+}
+#logo {
+	float: left;
+	margin-left: 20px;
+}
+#name {
+	margin-top: 10px;
+}
+
+.bold {
+	font-weight: bold;
+	color: #d2522f;
+}
+.italic {
+	font-style: italic;
+}
+#intro {
+	background-color: #ffffff;
+	opacity: 0.6;
+	color: #000000;
+	font-size: 1.5em;
+	width: 35%;
+	padding: 5px 20px;
+	margin: 50px 0px 0px 20px;
+	border: 5px solid #d2522f;
+	box-shadow: 0px 0px 10px #514745;
+}
