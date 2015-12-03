@@ -91,3 +91,16 @@ a:hover {
 	color: #ff670f;
 	text-decoration: underline;
 }
+#appear {
+	margin-left: 40px;
+}
+#footer {
+	height: 70px;
+	margin: 0 auto;
+	clear: both;
+	background-color: #353638;
+	text-align: center;
+	color: #ff670f;
+	padding-top: 30px;
+	font-size: 1em;
+}
