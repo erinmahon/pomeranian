@@ -4,7 +4,7 @@ body {
 .container {
 	width: 900px;
 	margin: 0 auto;
-	background-color: #ffffff;
+	padding: 10px;
 }
 nav {
 	height: 100px;
@@ -17,15 +17,15 @@ nav {
 	box-shadow: 0px 0px 10px #514745;
 	margin-bottom: 10px;
 	margin-top: 28%;
+	position: fixed;
 }
 
 li {
 	list-style-type: none;
-	display: inline;
+	display: inline-block;
 	margin: 0px 10px;
 }
 ul {
-	padding-top: 60px;
 	padding-left: 65%;
 }
 #home {
@@ -59,4 +59,13 @@ ul {
 	margin: 50px 0px 0px 20px;
 	border: 5px solid #d2522f;
 	box-shadow: 0px 0px 10px #514745;
+}
+#about {
+	background-color: #b9bcc5;
+}
+h2, h3 {
+	text-transform: uppercase;
+}
+h1, h2 {
+	text-align: center;
 }
